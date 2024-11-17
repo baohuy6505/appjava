@@ -1,6 +1,7 @@
 // MainFrame.java
 //Dang test cai nay o Master
 //Dang test cai nay o Dev
+//test 
 import javax.swing.*;
 import java.awt.*;
 import javax.swing.border.*;
@@ -53,7 +54,8 @@ public class MainFrame extends JFrame {
         JPanel logoPanel = new JPanel();
         logoPanel.setBackground(new Color(33, 33, 33));
         logoPanel.setMaximumSize(new Dimension(250, 100));
-        JLabel logoLabel = new JLabel("LIBRARY SYSTEM");
+      //  JLabel logoLabel = new JLabel("LIBRARY SYSTEM");
+      JLabel logoLabel = new JLabel("NguyenBaoHuy");
         logoLabel.setForeground(Color.WHITE);
         logoLabel.setFont(new Font("Arial", Font.BOLD, 20));
         logoPanel.add(logoLabel);
